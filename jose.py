@@ -14,6 +14,7 @@ pokemones_de_ash = {
     'squirtle': 'Tipo Agua, líder del Escuadrón Squirtle, siempre con sus gafas de sol.'
 }
 
+
 habilidades_de_goku = {
     'kamehameha': 'Ataque de energía',
     'genkidama': 'Ataque de energía',
@@ -22,14 +23,26 @@ habilidades_de_goku = {
     'taio-ken': 'Ataque enceguecedor'
 }
 
+actividad_preferida ={
+    ' jugar' : 'baloncesto',
+    ' cine' : ' terror'
+}
+
 # Acceso a elementos por clave: Accede a los elementos de un diccionario utilzando sus claves.
 
 valor_asociado_a_la_clave1 = pokemones_de_ash['pikachu']
 print(valor_asociado_a_la_clave1)
 
+
 valor_asociado_a_la_clave = habilidades_de_goku['kamehameha']
 print(valor_asociado_a_la_clave)
 print(habilidades_de_goku.keys())
+
+valor_asociado_a_la_clave = actividad_preferida[' jugar']
+print(valor_asociado_a_la_clave) 
+print(actividad_preferida.keys())
+print(actividad_preferida.values()) 
+
 
 # ---------------------Página 11-----------------------------
 
